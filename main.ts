@@ -32,13 +32,13 @@ function bouge () {
         led.plotBrightness(2, c - x1, liste[x1])
         led.plotBrightness(3, d - x1, liste[x1])
         led.plotBrightness(4, e - x1, liste[x1])
-        a += ass1
-        b += ass2
-        c += ass3
-        d += ass4
-        e += ass5
-        basic.pause(300)
     }
+    a += ass1
+    b += ass2
+    c += ass3
+    d += ass4
+    e += ass5
+    basic.pause(20)
 }
 let ass5 = 0
 let ass4 = 0
@@ -58,9 +58,9 @@ c = 2
 d = 3
 e = 4
 ass1 = 1
-ass2 = 5
+ass2 = 1
 ass3 = 1
-ass4 = 5
+ass4 = 1
 ass5 = 1
 basic.forever(function () {
     endroit()
